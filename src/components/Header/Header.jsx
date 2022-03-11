@@ -59,7 +59,6 @@ const Header = () => {
       // // This gives you a Google Access Token.
       // const credential = GoogleAuthProvider.credentialFromResult(result);
       // const token = credential.accessToken;
-      console.log({ result, user });
       setUser(user);
     } catch (error) {
       // Handle Errors here.
